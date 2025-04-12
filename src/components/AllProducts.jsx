@@ -18,6 +18,7 @@ const AllProducts = () => {
       <div className="font-[sans-serif] m-10 p-5 mx-auto lg:max-w-10xl max-w-8xl">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-6">
           {clothes.slice(0,visibleCount).map((item) => (
+          
             <div key={item.id}>
               <Link to={`/product/${item.id}`} className="block">
                 <div className="bg-white border overflow-hidden rounded-2xl cursor-pointer hover:border-blue-600 transition-all relative">
@@ -27,6 +28,7 @@ const AllProducts = () => {
                       alt={item?.name}
                       className="w-full object-contain"
                     />
+                 
                   </div>
                   <div className="p-4">
                     <h3 className="text-sm sm:text-base font-bold text-gray-800">{item?.name}</h3>
@@ -44,7 +46,7 @@ const AllProducts = () => {
                           />
                         </svg>
                       </div>
-                      <h4 className="text-sm sm:text-base text-gray-800 font-bold">₹ {item?.Price}</h4>
+                      <h4 className="text-sm sm:text-base text-gray-800 font-bold">₹ {item?.new_price}</h4>
                     </div>
                   </div>
                 </div>
