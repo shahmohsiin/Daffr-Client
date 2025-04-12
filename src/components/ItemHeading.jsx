@@ -10,7 +10,7 @@ const ItemHeading = ({heading, subHeading, noSpace = false}) => {
             <img className='w-4' src={HStarIcon} alt="" />
         </div>
 
-{subHeading && <p className='text-sm text-center font-subHeading text-[#777777]'>{subHeading}</p>}
+{subHeading && <p className='text-sm text-center font-subHeading text-[#777777]'>Soft. Sleek. Street-ready. Our best-selling oversized tee is a closet staple, blending comfort with effortlessly cool vibes.</p>}
         
       
     </div>
