@@ -110,7 +110,7 @@ Support
 
 <div className='flex bg-[#111111] justify-center items-center py-5 text-sm '>
   <span className='text-[#777777] font-subHeading'>
-  © 2025 <span className='text-[#ffffff] font-heading'>DAFFR</span> All rights reserved. Designed by <span className='text-[#ffffff] font-heading'>Mohd Ali</span> 
+  © 2025 <span className='text-[#ffffff] font-heading'>DAFFR</span> All rights reserved
   </span>
 </div>
 
